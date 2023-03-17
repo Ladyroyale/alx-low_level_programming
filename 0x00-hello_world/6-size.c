@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Print various sizes
  *
  * Return: 0 alaways when succesful
  */
-
 int main(void)
 {
 	char a;
