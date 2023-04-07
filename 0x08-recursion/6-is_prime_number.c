@@ -26,6 +26,6 @@ int final_prime(int n, int j)
 		return (1);
 	}
 	else if (n % j == 0 && j > 0)
-			return (0);
+		return (0);
 	return (final_prime(n, j - 1));
 }
