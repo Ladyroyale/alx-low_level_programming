@@ -2,11 +2,11 @@
 #include <stdio.h>
 /**
  * main - program that prints its name
- * @rgc: parameter
+ * @argc: parameter
  * @argv: string to be renamed
- * Return: 0 always 
+ * Return: 0 always
  */
-int main(int argc, char *s)
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);
