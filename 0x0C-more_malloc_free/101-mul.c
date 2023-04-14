@@ -54,10 +54,9 @@ int _strlen(char *s)
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
-	int w1, w2, w, k, count, num1, num2, *mul, a = 0;
+	int w1, w2, w, k, num1, num2, count, *mul, a = 0;
 
 	s1 = argv[1], s2 = argv[2];
-
 	if (argc != 3 || !_number(s1) || !_number(s2))
 		errors();
 	w1 = _strlen(s1);
@@ -89,6 +88,19 @@ int main(int argc, char *argv[])
 		if (a)
 			_putchar(mul[k] + '0');
 	}
+	_putchar('\n');
+	return (0);
+}
+/**
+ * _helperfunction - help main
+ *
+ * @a: parameter
+ * Return: 0 always
+ */
+int _helperfunction(int a)
+{
+	int *mul = 0;
+
 	if (!a)
 		_putchar('0');
 	_putchar('\n');

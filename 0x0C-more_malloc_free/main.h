@@ -14,5 +14,6 @@ void errors(void);
 int _strlen(char *s);
 int _number(char *str);
 int main(int argc, char *argv[]);
+int _helperfunction(int a);
 
 #endif
