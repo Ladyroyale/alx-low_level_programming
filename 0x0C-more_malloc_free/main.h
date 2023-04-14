@@ -12,6 +12,7 @@ int _putchar(char c);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void errors(void);
 int _strlen(char *s);
-int is_digit(char *s);
+int _number(char *str);
+int main(int argc, char *argv[]);
 
 #endif
