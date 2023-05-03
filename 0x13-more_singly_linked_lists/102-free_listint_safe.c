@@ -21,17 +21,17 @@ size_t free_listint_safe(listint_t **h)
 			list = (*h)->next;
 			free(*h);
 			*h = list;
-			j++;
+			size++;
 		}
 		else
 		{
 			free(*h);
 			*h = NULL;
-			j++;
+			size++;
 			break;
 		}
 	}
 	*h = NULL;
 
-	return (j);
+	return (size);
 }
